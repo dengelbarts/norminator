@@ -14,7 +14,7 @@ cd ~
 2. Clone the git there.
 
 ```bash
-git clone <...> Norminator
+git clone https://github.com/dengelbarts/norminator.git Norminator
 ```
 
 3. Run this command to create .zshrc if it doesn't yet exist in your root.
