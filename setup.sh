@@ -1,14 +1,13 @@
 function create_alias {
-    # Check if the .bashrc file exists
-    if [ ! -f ~/.bashrc ]; then
+    # Check if the .zshrc file exists
+    if [ ! -f ~/.zshrc ]; then
         # If the file doesn't exist, create it
-        touch ~/.bashrc
+        touch ~/.zshrc
     fi
 
-    # Add the alias to the .bashrc file
-
-    echo 'alias norminator="bash ~/Documents/norm"' >> ~/.bashrc
+    # Add the alias to the .zshrc file
+    echo 'alias norminator="bash ~/Documents/norm"' >> ~/.zshrc
 
     # Apply the changes
-    source ~/.bashrc
+    source ~/.zshrc
 }
