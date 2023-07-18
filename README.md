@@ -14,7 +14,7 @@ cd ~
 2. Clone the git there.
 
 ```bash
-git clone <...>
+git clone <...> Norminator
 ```
 
 3. Run this command to create .zshrc if it doesn't yet exist in your root.
@@ -26,7 +26,7 @@ touch .zshrc
 4. Run this command to add an alias to .zshrc.
 
 ```bash
-echo 'alias norminator="bash ~/Documents/norm"' >> ~/.zshrc
+echo 'alias norminator="bash ~/Norminator/norm"' >> ~/.zshrc
 ```
 
 5. Go to your assignment directory where you want to test.
