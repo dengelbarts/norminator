@@ -29,19 +29,21 @@ touch .zshrc
 echo 'alias norminator="bash ~/Documents/norm"' >> ~/.zshrc
 ```
 
-5. Go to your assignment directory where you want to test.
+5. Close and Re-open the Terminal, to initialise the alias.
+
+6. Go to your assignment directory where you want to test.
 
 ```bash
 cd cXX
 ```
 
-6. Run using command `norminator`, which will run norminette with the required flags on all the files in said directory and update every second.
+7. Run using command `norminator`, which will run norminette with the required flags on all the files in said directory and update every second.
 
 ```bash
 norminator
 ```
 
-7. Norminator will stop running when the output contains "OK!" (It will also play a sound, declaring your victory over the vile norminette.)
+8. Norminator will stop running when the output contains "OK!" (It will also play a sound, declaring your victory over the vile norminette.)
 
 ## Warnings
 
