@@ -26,7 +26,7 @@ touch .zshrc
 4. Run this command to add an alias to .zshrc.
 
 ```bash
-echo 'alias norminator="bash ~/Norminator/norm"' >> ~/.zshrc
+echo 'alias norminator="bash ~/Norminator/Norminator.sh"' >> ~/.zshrc
 ```
 
 5. Go to your assignment directory where you want to test.
