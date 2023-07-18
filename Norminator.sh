@@ -18,7 +18,7 @@ while true; do
     output=$(norminette $1)
     echo "$output"
     if [[ "$output" == *"OK!"* ]]; then
-        afplay ~/Norminator/success.aiff
+        afplay ~/Norminator/success.mp3
         break
     fi
     sleep 1
