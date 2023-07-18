@@ -17,10 +17,16 @@ while true; do
     clear
     output=$(norminette $1)
     echo "$output"
-    if [[ "$output" == *"OK!"* ]]; then
-        afplay ~/Norminator/success.mp3
+    all_ok=true
+    while read -r line; do
+        if [[ "$line" != *"OK!"* ]]; then
+            all_ok=false
+            break
+        fi
+    done <<< "$output"
+    if $all_ok; then
+        afplay ~/Norminator/success.mp3 &
         break
     fi
     sleep 1
 done
-
