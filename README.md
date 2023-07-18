@@ -26,7 +26,7 @@ touch .zshrc
 4. Run this command to add an alias to .zshrc.
 
 ```bash
-echo 'alias norminator="bash ~/Documents/norm"' >> ~/.zshrc
+echo 'alias norminator="bash ~/Norminator/Norminator.sh"' >> ~/.zshrc
 ```
 
 5. Close and Re-open the Terminal, to initialise the alias.
