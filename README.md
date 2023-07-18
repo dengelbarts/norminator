@@ -17,25 +17,31 @@ cd ~
 git clone <...>
 ```
 
-3. Run this command to setup the alias automatically.
+3. Run this command to create .zshrc if it doesn't yet exist in your root.
 
 ```bash
-bash ~/Norminator/setup.sh
+touch .zshrc
 ```
 
-4. Go to your assignment directory where you want to test.
+4. Run this command to add an alias to .zshrc.
+
+```bash
+echo 'alias norminator="bash ~/Documents/norm"' >> ~/.zshrc
+```
+
+5. Go to your assignment directory where you want to test.
 
 ```bash
 cd cXX
 ```
 
-5. Run using command `norminator`, which will run norminette with the required flags on all the files in said directory and update every second.
+6. Run using command `norminator`, which will run norminette with the required flags on all the files in said directory and update every second.
 
 ```bash
 norminator
 ```
 
-6. Norminator will stop running when the output contains "OK!" (It will also play a sound, declaring your victory over the vile norminette.)
+7. Norminator will stop running when the output contains "OK!" (It will also play a sound, declaring your victory over the vile norminette.)
 
 ## Warnings
 
