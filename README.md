@@ -45,6 +45,8 @@ norminator
 
 8. Norminator will stop running when the output contains "OK!" (It will also play a sound, declaring your victory over the vile norminette.)
 
+9. There also may or may not be a surprise if your file(s) pass norminette on the first run.
+
 ## Warnings
 
 Please only run norminator on finished code. If you run it before, it will stop looping if at ANY point your code is "OK!", meaning you will not see later errors.
