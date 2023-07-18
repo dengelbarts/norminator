@@ -47,10 +47,7 @@ norminator
 
 ## Warnings
 
-Please run Norminator when your code logic is finished. 
-Running Norminator while creating the code might not work out, as once the code is OK at any point it will stop checking.
-This of course also applies to directories that contain multiple files.
-Please only run Norminator in a directory containing one code file, if you want it to loop.
+Please only run norminator on finished code. If you run it before, it will stop looping if at ANY point your code is "OK!", meaning you will not see later errors.
 
 ## Other Recommendations
 
